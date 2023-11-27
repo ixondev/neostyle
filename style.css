@@ -18,7 +18,6 @@
     box-sizing: border-box;
     /* font-family: 'Montserrat', sans-serif; */
     font-family: Inter,Helvetica,Arial,sans-serif;
-    font-size: 16px;
     /* color:#d19a10; */
     color:#000000;
 }
@@ -58,6 +57,9 @@ body.grad1 {
         text-align: left;
         text-justify: center;
         align-content: center;
+        font-size: 16px;
+        /* font-weight: bold; */
+        font-variant: small-caps;
     }
 
         #nav-div a {
