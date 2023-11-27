@@ -1,12 +1,15 @@
+{% load static %}
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Condominio Edificio Neostyle</title>
+    <!-- Icono de página -->
+    <link rel="icon" href="{% static 'all_images/comutis.ico' %}" type="image/png" />
 
     <!-- <link rel="stylesheet" href="main_style.css"> -->
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="{% static 'nstapp_css/style.css' %}">
 
 
 </head>
@@ -17,7 +20,7 @@
         <div id="logo-div">
             <figure>
                 <!-- image: w:960 h:670 => new_w:80 new_h: w x 670/960 = 55.833-->
-                <img src="buildings.png" alt="" width="80" height="55.83">
+                <img src="{% static 'all_images/buildings.png' %}" alt="" width="80" height="55.83">
             </figure>
         </div>
 
